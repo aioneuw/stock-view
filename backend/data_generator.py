@@ -1,6 +1,5 @@
 """模拟数据生成器"""
 import numpy as np
-import pandas as pd
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
 
