@@ -142,7 +142,7 @@ export default function Home() {
         onRemoveFavorite={toggleFavorite}
       />
 
-      <main className="container py-6">
+      <main className="w-full max-w-7xl mx-auto px-4 py-6">
         {/* 大盘概览 */}
         {marketOverview && <MarketOverview data={marketOverview} />}
 

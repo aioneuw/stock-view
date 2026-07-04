@@ -139,7 +139,7 @@ export default function StockDetailPage() {
     <div className="min-h-screen bg-background">
       {/* 顶部导航 */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center">
+        <div className="w-full max-w-7xl mx-auto flex h-14 items-center px-4">
           <Link href="/">
             <Button variant="ghost" size="icon">
               <ArrowLeft className="h-4 w-4" />
@@ -169,7 +169,7 @@ export default function StockDetailPage() {
         </div>
       </header>
 
-      <main className="container py-6">
+      <main className="w-full max-w-7xl mx-auto px-4 py-6">
         {/* 股票基本信息 */}
         <Card className="mb-6">
           <CardContent className="p-6">
