@@ -2,7 +2,7 @@
  * StockView API 封装
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://stock-view-production-9839.up.railway.app';
 
 export interface StockBasic {
   code: string;
